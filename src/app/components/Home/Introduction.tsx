@@ -65,22 +65,7 @@ const Products: React.FC = () => {
     };
 
     console.log({ activeProduct })
-    const renderView = () => {
-        switch (activeProduct) {
-            case 'DocAtlas':
-                return <DocAtlas />
-            case 'HydrogenGp':
-                return <Titan />
-            case 'Prime':
-                return <Prime />
-            case 'Apollo':
-                return <Apollo />
-            case 'DocX':
-                return <DocX />
-            default:
-                return <DocAtlas />
-        }
-    }
+
     return (
         <>
             <div id='ourProduct' className="flex flex-col w-full max-sm:px-5 sm:w-11/12 xl:w-3/4 max-w-[1366px] mt-20 place-items-center text-center">
