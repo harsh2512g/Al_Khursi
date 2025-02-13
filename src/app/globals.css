@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bounce-in-right {
+  animation: bounce-in-right 4s ease;
+}
+
+@keyframes bounce-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bounce-in-left {
+  animation: bounce-in-left 2s ease;
+}
+
+@keyframes bounce-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bounce-in-bottom-to-top {
+  animation: bounce-in-bottom-to-top 3s ease-out;
+}
+
+@keyframes bounce-in-bottom-to-top {
+  0% {
+    opacity: 0;
+    transform: translateY(2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.grow {
+  animation: grow 2s ease;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.trailsText {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color: black;
+  font-size: 6em;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trailsText > div {
+  padding-right: 0.05em;
+  overflow: hidden;
+}
+
+.containerReveal {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+/* .ant-modal-content {
+  background-color: #1E88E5 !important;  
+  color: white;
+  padding: 0px 0px !important;
+} */
+
+.customblur {
+  filter: blur(2px); /* Adjust the blur amount as needed */
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}

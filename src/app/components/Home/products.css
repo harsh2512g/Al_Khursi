@@ -1,0 +1,57 @@
+/* Container to position the content properly */
+.transition-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+
+/* Initial styles for content slide */
+.slide {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Slide in from the right (for right-to-left animation) */
+.slide-right {
+  animation: slideRight 0.5s forwards;
+}
+
+/* Slide in from the left (for left-to-right animation) */
+.slide-left {
+  animation: slideLeft 0.5s forwards;
+}
+
+/* Keyframes for sliding from right to left */
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Keyframes for sliding from left to right */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
