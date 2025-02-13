@@ -1,4 +1,5 @@
 import ScrollReveal from "../ScrollReveal";
+import { Factory, Hospital, Wheat, BrainCircuit } from "lucide-react";
 
 const Industries = () => {
     return (
@@ -11,8 +12,8 @@ const Industries = () => {
                     <img className='shadow-lg rounded-2xl sm:max-w-[500px]' src="/assets/images/prime1.png" alt="Ultimate Medical Knowledge Hub" />
                 </div>
                 <div className="flex flex-col sm:w-1/2 gap-1 sm:gap-4 sm:ml-20">
-                    <div className="flex w-fit rounded-xl p-1 bg-[#CADCFC]">
-                        <img src="/assets/images/skillsIcon1.svg" alt="Knowledge Hub icon" />
+                    <div className="flex w-fit rounded-xl p-2 bg-[#CADCFC]">
+                        <Factory size={24} color="#fff" />
                     </div>
                     <div className="flex flex-col gap-2">
                         <div className="flex w-3/4">
@@ -53,8 +54,8 @@ const Industries = () => {
                     <img className='shadow-lg rounded-2xl sm:max-w-[500px]' src="/assets/images/prime2.png" alt="Prime Clinical Excellence" />
                 </div>
                 <div className="flex flex-col sm:w-1/2 gap-1 sm:gap-4">
-                    <div className="flex w-fit rounded-xl p-1 bg-[#CADCFC]">
-                        <img src="/assets/images/skillsIcon2.svg" alt="Smarter Learning icon" />
+                    <div className="flex w-fit rounded-xl p-2 bg-[#CADCFC]">
+                        <Hospital size={24} color="#fff" />
                     </div>
                     <div className="flex flex-col gap-2">
                         <div className="flex w-3/4">
@@ -92,8 +93,8 @@ const Industries = () => {
                     <img className='shadow-lg rounded-2xl sm:max-w-[500px]' src="/assets/images/prime3.png" alt="Prime Financials" />
                 </div>
                 <div className="flex flex-col sm:w-1/2 gap-1 sm:gap-4 sm:ml-20">
-                    <div className="flex w-fit rounded-xl p-1 bg-[#CADCFC]">
-                        <img src="/assets/images/skillsIcon3.svg" alt="Engaging Learning icon" />
+                    <div className="flex w-fit rounded-xl p-2 bg-[#CADCFC]">
+                        <Wheat size={24} color="#fff" />
                     </div>
                     <div className="flex flex-col gap-2">
                         <div className="flex w-3/4">
@@ -127,8 +128,8 @@ const Industries = () => {
                     <img className='shadow-lg rounded-2xl sm:max-w-[500px]' src="/assets/images/prime2.png" alt="Prime Clinical Excellence" />
                 </div>
                 <div className="flex flex-col sm:w-1/2 gap-1 sm:gap-4">
-                    <div className="flex w-fit rounded-xl p-1 bg-[#CADCFC]">
-                        <img src="/assets/images/skillsIcon2.svg" alt="Smarter Learning icon" />
+                    <div className="flex w-fit rounded-xl p-2 bg-[#CADCFC]">
+                        <BrainCircuit size={24} color="#fff" />
                     </div>
                     <div className="flex flex-col gap-2">
                         <div className="flex w-3/4">

@@ -12,6 +12,7 @@
     "@react-spring/web": "^9.7.5",
     "antd": "^5.24.0",
     "axios": "^1.7.9",
+    "lucide-react": "^0.475.0",
     "next": "15.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
