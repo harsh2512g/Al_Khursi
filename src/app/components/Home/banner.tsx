@@ -45,7 +45,7 @@ const HomeBanner = () => {
                             playsInline
                         >
                             <source src="https://video.wixstatic.com/video/4fb1cf_f45426e3799046a086a45a575620f71a/1080p/mp4/file.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
+                            Your browser does not support the video tag
                         </video>
                         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
                     </div>
