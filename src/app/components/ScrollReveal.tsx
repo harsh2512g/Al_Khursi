@@ -34,17 +34,20 @@ const ScrollReveal: React.FC<ScrollRevealProps> = ({ children, threshold = 0.2, 
         };
     }, [threshold]);
 
-    const springProps = useSpring({
+    const springProps: any = useSpring({
         opacity: isVisible ? 1 : 0,
         transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
         delay,
         config: { tension: 100, friction: 10, duration: 300 },
     });
+    const AnimatedDiv = a.div as React.FC<{ children: React.ReactNode; style?: React.CSSProperties; ref?: React.Ref<HTMLDivElement> }>;
 
     return (
-        <a.div style={springProps} ref={elementRef}>
-            <span className={`${className}`}>{children}</span>
-        </a.div>
+        <div ref={elementRef}>
+            <AnimatedDiv style={springProps} ref={elementRef}>
+                <span className={`${className}`}>{children}</span>
+            </AnimatedDiv>
+        </div>
     );
 };
 
