@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         <Menu mode="inline" openKeys={openKeys} onOpenChange={onOpenChange} className='className="sticky top-0 z-50 shadow-md" !bg-blue-50' style={{ width: '100%' }}>
 
             <Menu.Item key="pricing">
-                <Link href="/#ourProduct">
+                <Link href="/#ourExpertise">
                     <div>Our Expertise</div>
                 </Link>
             </Menu.Item>
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
 
                     {/* Desktop View */}
                     <div className="hidden sm:flex gap-8 items-center justify-end font-semibold w-full text-white">
-                        <Link href='/#ourProduct' className="dropdown-trigger hover:!text-black">
+                        <Link href='/#ourExpertise' className="dropdown-trigger hover:!text-black">
                             <span className='text-md  '>
                                 Our Expertise
                             </span>

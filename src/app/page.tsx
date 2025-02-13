@@ -40,7 +40,7 @@ export default function Home() {
 
         <Introduction />
 
-        <div id="ourTeam" className="flex flex-col w-full bg-[#e2f3d7] py-20 mt-20 items-center">
+        <div id="ourExpertise" className="flex flex-col w-full bg-[#e2f3d7] py-20 mt-20 items-center">
 
           <Expertise />
         </div>

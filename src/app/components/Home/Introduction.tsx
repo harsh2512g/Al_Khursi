@@ -68,12 +68,12 @@ const Products: React.FC = () => {
 
     return (
         <>
-            <div id='ourProduct' className="flex flex-col w-full max-sm:px-5 sm:w-11/12 xl:w-3/4 max-w-[1366px] mt-20 place-items-center text-center">
+            <div className="flex flex-col w-full max-sm:px-5 sm:w-11/12 xl:w-3/4 max-w-[1366px] mt-20 place-items-center text-center">
                 <div className="flex">
                     <img src="/assets/images/logo.png" alt="logo" className='w-40 h-32' />
                 </div>
                 <div className="flex mt-3 sm:mt-7 mb-[18px] sm:mb-6">
-                    <ScrollReveal delay={500} className="text-sm sm:text-[36px] font-bold">Introduction </ScrollReveal>
+                    <ScrollReveal delay={500} className="text-sm sm:text-4xl font-bold">Introduction </ScrollReveal>
                 </div>
                 <div className="flex">
                     <ScrollReveal delay={700} className="text-sm sm:text-xl font-semibold max-sm:leading-6">
