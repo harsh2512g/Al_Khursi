@@ -31,12 +31,12 @@ const Header: React.FC = () => {
                 </Link>
             </Menu.Item>
             <Menu.Item key="pricing">
-                <Link href="/#ourTeam">
+                <Link href="/#industries">
                     <div>Industries</div>
                 </Link>
             </Menu.Item>
             <Menu.Item key="pricing">
-                <Link href="/#ourMisssion">
+                <Link href="/#partnership">
                     <div>Al Khursi LLP & Treint Partnership</div>
                 </Link>
             </Menu.Item>
@@ -59,17 +59,17 @@ const Header: React.FC = () => {
 
                     {/* Desktop View */}
                     <div className="hidden sm:flex gap-8 items-center justify-end font-semibold w-full text-white">
-                        <Link href='/#ourExpertise' className="dropdown-trigger hover:!text-black">
+                        <Link href='/#ourExpertise' className="dropdown-trigger hover:!text-[#CADCFC]">
                             <span className='text-md  '>
                                 Our Expertise
                             </span>
                         </Link>
-                        <Link href='/#ourTeam' className="dropdown-trigger hover:!text-black">
+                        <Link href='/#industries' className="dropdown-trigger hover:!text-[#CADCFC]">
                             <span className='text-md '>
                                 Industries
                             </span>
                         </Link>
-                        <Link href='/#ourMisssion' className="dropdown-trigger hover:!text-black">
+                        <Link href='/#partnership' className="dropdown-trigger hover:!text-[#CADCFC]">
                             <span className='text-md '>
                                 Al Khursi LLP & Treint Partnership
                             </span>
