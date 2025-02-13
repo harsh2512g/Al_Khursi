@@ -36,11 +36,11 @@ export default function Home() {
         <HomeBanner />
       </section>
 
-      <section className="flex flex-col items-center bg-customLightBlue">
+      <section className="flex flex-col items-center ">
 
         <Introduction />
 
-        <div id="ourExpertise" className="flex flex-col w-full bg-[#e2f3d7] py-20 mt-20 items-center">
+        <div id="ourExpertise" className="flex flex-col w-full bg-[#CADCFC] py-20 mt-20 items-center">
 
           <Expertise />
         </div>

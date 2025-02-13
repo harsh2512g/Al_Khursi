@@ -53,7 +53,7 @@ const HomeBanner = () => {
                         <div className="flex gap-4 px-4 self-center">
                             <span className="text-xl md:text-4xl grow font-extrabold text-white">Shaping the Future of Global Trade, Investments & AI Infrastructure </span>
                         </div>
-                        <div className="flex max-md:mt-1 bg-gradient-to-r from-[#fff] via-customBlue to-customGreen h-2 bounce-in-left w-[70%] self-center rounded-xl"></div>
+                        <div className="flex max-md:mt-1 bg-gradient-to-r from-[#fff] via-[#CADCFC] to-[#9fbff6] h-2 bounce-in-left w-[70%] self-center rounded-xl"></div>
                         <div className="flex self-center mt-2 md:mt-4">
                             <ScrollReveal delay={200} className="text-lg md:text-2xl font-bold ">Powering industries, enabling innovation, and driving sustainable growth across global markets.</ScrollReveal>
                         </div>
