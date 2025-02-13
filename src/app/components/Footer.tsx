@@ -25,6 +25,7 @@ const Footer: React.FC = () => {
             <span className='text-sm font-semibold text-gray-400'>sakhi.sheikhislam@gmail.com </span>
           </div>
         </div>
+        <div className='bg-gray-400 w-full h-[1px] mt-2'> </div>
         <div className="flex flex-col-reverse md:flex-row justify-between items-center md:items-start gap-8 mt-2 grow">
           <div className="text-center md:text-left">
             {/* <hr className="hidden mt-8 mb-8" /> */}
@@ -39,6 +40,8 @@ const Footer: React.FC = () => {
             </button>
           </div> */}
         </div>
+        <div className='bg-gray-400 w-full h-[1px] mt-2'> </div>
+
         <div className="text-center md:text-left mt-2">
           <span className='font-semibold'>Quick Links: </span>
           <Link href='/' className='text-sm font-semibold text-gray-400 cursor-pointer'>Home | </Link>
@@ -47,6 +50,8 @@ const Footer: React.FC = () => {
           <Link href='/#ourExpertise' className='text-sm font-semibold text-gray-400 cursor-pointer'>Partner | </Link>
           <Link href='/#ourExpertise' className='text-sm font-semibold text-gray-400 cursor-pointer'>Contact Us </Link>
         </div>
+        <div className='bg-gray-400 w-full h-[1px] mt-2'> </div>
+
         <div>
           <span className='font-semibold'>Legal: </span>
           <Link href='/' className='text-sm font-semibold text-gray-400 cursor-pointer'>Privacy Policy | </Link>
