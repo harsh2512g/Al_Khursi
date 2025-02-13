@@ -97,7 +97,7 @@ export default function Home() {
 
 
       </section>
-      {/* <Footer /> */}
+      <Footer />
       {contactUsModal && <div>
         <CommonModal
           visible={contactUsModal}

@@ -74,9 +74,9 @@ const Header: React.FC = () => {
                                 Al Khursi LLP & Treint Partnership
                             </span>
                         </Link>
-                        <div className="hidden md:flex hover:text-black" onClick={() => setContactUsModal(true)}>
+                        {/* <div className="hidden md:flex hover:text-black" onClick={() => setContactUsModal(true)}>
                             <button className='  '>Contact us</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/* <div className="hidden md:flex" onClick={() => setContactUsModal(true)}>
